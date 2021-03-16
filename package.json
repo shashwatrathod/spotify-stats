@@ -4,7 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon start"
+    "start": "nodemon start",
+    "heroku-postbuild": "cd client && yarn install --only=dev && yarn install && yarn build"
+  },
+  "engines": {
+    "node": "14.15.0",
+    "yarn": "1.22.5",
+    "npm": "6.14.10"
   },
   "dependencies": {
     "axios": "^0.21.1",
