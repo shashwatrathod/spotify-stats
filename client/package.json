@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"This template does not include a test runner by default.\" && exit 1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@snowpack/plugin-dotenv": "^2.0.5",
+    "axios": "^0.21.1",
+    "colorthief": "^2.3.2",
+    "http-proxy": "^1.18.1",
+    "lodash": "^4.17.21",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-material-ui-carousel": "^2.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-window": "^1.8.6",
+    "styled-components": "^5.2.1",
+    "snowpack": "^3.0.11"
+  }
+}
