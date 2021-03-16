@@ -45,7 +45,6 @@ const LoginPage = () => {
     <>
       <LoginContainer>
         <LoginButtonContainer>
-          {console.log(authURL)}
           <LoginButton href={authURL}>Login with Spotify</LoginButton>
         </LoginButtonContainer>
       </LoginContainer>
